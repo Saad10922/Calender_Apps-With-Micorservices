@@ -66,6 +66,7 @@ function App() {
       }}
     >
       <h2 style={{ color: "#333" }}>Colorful Calendar</h2>
+      <section id="calender">
       <div className="calendar">
         <div className="header">
           <button className="nav-button" onClick={() => changeMonth(-1)}>❮</button>
@@ -84,6 +85,7 @@ function App() {
         </div>
         <div className="days-container">{renderDays()}</div>
       </div>
+      </section>
     </div>
   );
 }
